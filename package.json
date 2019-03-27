@@ -1,0 +1,38 @@
+{
+    "name": "social-network",
+    "version": "1.0.0",
+    "description": "Proyecto Red Social REM",
+    "main": "src/index.html",
+    "scripts": {
+        "test": "jest --coverage",
+        "eslint": "eslint ext .js src/ tesht/",
+        "htmlhint": "htmlhint src/*.html",
+        "deploy": "gh-pages -d src/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LauraRamirez1/SCL008-Social-Network.git"
+    },
+    "keywords": [
+        "firebase",
+        "SPA"
+    ],
+    "author": "Laura Ramirez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LauraRamirez1/SCL008-Social-Network/issues"
+    },
+    "homepage": "https://github.com/LauraRamirez1/SCL008-Social-Network#readme",
+    "dependencies": {
+        "@babel/core": "^7.4.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.4.0",
+        "babel-core": "^6.26.3",
+        "babel-jest": "^24.5.0",
+        "eslint": "^5.15.3",
+        "eslint-plugin-jest": "^22.4.1",
+        "express": "^4.16.4",
+        "gh-pages": "^2.0.1",
+        "htmlhint": "^0.11.0",
+        "jest": "^24.5.0"
+    }
+}
