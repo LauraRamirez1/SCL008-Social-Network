@@ -5,6 +5,7 @@ import {
 
 import { templateCreate } from '../views/templateCreate.js';
 
+
 export const templateLogin = () => {
     const containerLogin = document.createElement('div');
 
@@ -49,5 +50,6 @@ export const templateLogin = () => {
 
         templateCreate();
     });
+
     return containerLogin;
 };

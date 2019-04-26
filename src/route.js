@@ -33,6 +33,8 @@ const showTemplate = (hash) => {
 
 export const initRouter = () => {
     window.addEventListener('load', changeRouter(window.location.hash));
+    let rootChanges = document.getElementById("root");
+    rootChanges.appendChild(templateLogin());
 
     // reconoce un cambio en el hash y le pasa ese nuevo hash a changeRouter
     if ('onhashchange' in window) {
