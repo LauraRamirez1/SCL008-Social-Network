@@ -1,10 +1,6 @@
 import { templateLogin } from './assets/views/templateLogin.js';
 import { templateCreate } from './assets/views/templateCreate.js';
 
-/*
-  crear una función que reciba el hash (#) y según el match retorne otra función que va a imprimir el template en el html
-*/
-
 const changeRouter = (hash) => {
     if (hash === '#/login') {
         return showTemplate(hash);
@@ -16,13 +12,11 @@ const changeRouter = (hash) => {
 
 }
 
-// imprimirá el template en el html
 const showTemplate = (hash) => {
     const router = hash.substring(2);
-    const containerRoot = document.getElementById('root');
+    let containerRoot = document.getElementById('root');
     containerRoot.innerHTML = '';
 
-    // hacemos el match del hash utilizado y el template que quiero mostrar
     switch (router) {
         case 'login':
             containerRoot.appendChild(templateLogin());
