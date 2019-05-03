@@ -9,9 +9,9 @@ import { templateCreate } from '../views/templateCreate.js';
 export const templateLogin = () => {
     const containerLogin = document.createElement('div');
 
-    const contentLogin = ` <img src='./assets/img/logistica.gif' alt='logo' class='logo-img'> 
-    <element id='signInbox' class='loginInBox'>
-        <div class="create">
+    const contentLogin = ` <img src='./assets/img/RAM.png' alt='logo' class='logo-img'> 
+                                <element id='signInbox' class='loginInBox'>
+                              <div class="create">
             <input id='email-user' class='email' type='email' placeholder='Ingrese su correo'>
             <input id='password-user' class='password' type='password' placeholder='Ingrese su contraseña'>
             <button id='signInBtn' class='login-btn type='button'>INICIAR SESIÓN</button>
