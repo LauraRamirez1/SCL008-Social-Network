@@ -39,7 +39,8 @@ export const templateLogin = () => {
         } else {
             firebase.auth().signInWithEmailAndPassword(email, password)
                 .then( () => {
-                    alert('bienvenido '+ email)
+                    alert('bienvenido '+ email);
+                    // aqui puedes seguir trabajando
                 })
                 .catch( e => {
                     alert('Usuario o contraseña incorrectos');

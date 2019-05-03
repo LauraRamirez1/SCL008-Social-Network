@@ -4,6 +4,7 @@ export const loginGoogle = () => {
     firebase.auth().signInWithPopup(provider)
         .then( (result) => {
             console.log('funciona', result);
+            // aqui puedes seguir trabajando
         })
 }
 
