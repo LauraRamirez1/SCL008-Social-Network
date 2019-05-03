@@ -1,0 +1,1 @@
+//Validar todos los imput de los templete entes de pasar a firebase
