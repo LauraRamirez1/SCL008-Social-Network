@@ -1,6 +1,6 @@
 import { initRouter } from './route.js';
-const init = () => {
 
+const init = () => {
     var config = {
         apiKey: "AIzaSyBfP3Doa6vzdzVfv826PeruRFH_ZNjpNv4",
         authDomain: "scl008-social-network.firebaseapp.com",
@@ -11,7 +11,6 @@ const init = () => {
     };
     firebase.initializeApp(config);
     initRouter();
-
-}
+};
 
 window.addEventListener('load', init);

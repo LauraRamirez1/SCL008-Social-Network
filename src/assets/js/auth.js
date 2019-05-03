@@ -1,11 +1,15 @@
 export const loginGoogle = () => {
-    return 'Login con Google OK';
+    console.log('google');
+    let provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(provider)
+        .then( (result) => {
+            console.log('funciona', result);
+        })
 }
 
-export const createAccount = () => {
-    return 'Cuenta creada OK';
-
-}
+export const createAccount = (email, password) => {
+    return firebase.auth().createUserWithEmailAndPassword(email, password);
+};
 
 export const signInSession = () => {
     return 'Ingreso OK';
