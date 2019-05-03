@@ -11,7 +11,7 @@ export const templateCreate = () => {
                                 <button id="create">Crear cuenta</button>
                                 <p id="alert-Error"></p>
                             </div>`;
-                            
+
 
     containerCreate.innerHTML = contentCreate;
 
@@ -23,19 +23,19 @@ export const templateCreate = () => {
         let password = document.getElementById('password-user').value;
         let repeat = document.getElementById('password-user2').value;
 
-        if(email === '' || password === '' || repeat === '') {
+        if (email === '' || password === '' || repeat === '') {
             alert('debe llenar los campos');
         } else {
-            if( password !== repeat ) {
+            if (password !== repeat) {
                 alert('las contraseñas no coinciden');
             } else {
                 createAccount(email, password)
-                    .then( () => {
-                        alert('usuario creado  ' + email );
-                        // aqui puedes seguir trabajando
+                    .then(() => {
+                        alert('usuario creado  ' + email);
+                        //Continuo aqui******+
                     })
-                    .catch( () => alert('error al registrar') );
-            }           
+                    .catch(() => alert('error al registrar'));
+            }
         }
     });
     return containerCreate;

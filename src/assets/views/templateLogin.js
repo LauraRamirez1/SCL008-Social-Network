@@ -38,11 +38,11 @@ export const templateLogin = () => {
             document.getElementById('alert-Error').innerHTML = 'Ingrese sus datos de registro';
         } else {
             firebase.auth().signInWithEmailAndPassword(email, password)
-                .then( () => {
-                    alert('bienvenido '+ email);
+                .then(() => {
+                    alert('bienvenido ' + email);
                     // aqui puedes seguir trabajando
                 })
-                .catch( e => {
+                .catch(e => {
                     alert('Usuario o contraseña incorrectos');
                     console.log('error al autenticar');
                 });
@@ -55,16 +55,10 @@ export const templateLogin = () => {
 
     const btnNewUser = containerLogin.querySelector('#newUserResg');
     btnNewUser.addEventListener('click', () => {
-        
+
 
         templateCreate();
     });
 
     return containerLogin;
 };
-
-(function() {
-    function register() {
-        
-    };
-});
