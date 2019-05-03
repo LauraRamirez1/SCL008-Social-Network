@@ -13,7 +13,14 @@ body {
 .logo-img {
     margin-top: 50px;
     margin-bottom: 25px;
-    width: 400px;
+    width: 300px;
+}
+
+button {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
 }
 
 @media (max-width: 400px) {
