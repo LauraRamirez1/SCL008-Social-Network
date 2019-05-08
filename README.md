@@ -22,9 +22,9 @@ RAM es una plataforma digital cuyo objetivo es que cualquier persona pueda regis
 * Otros
 
 
-###Historias de usuario
+##Historias de usuario
 
-####Usuario 1
+###Usuario 1
 
 Karina Rojas es colombiana y como nueva usuaria de RAM desea poder registrarse en la red para acceder a la información que la misma le ofrece, quiere ingresar con su correo de gmail o con sus datos personales
 
@@ -33,7 +33,7 @@ Karina Rojas es colombiana y como nueva usuaria de RAM desea poder registrarse e
 >El usuario debería poder loguearse con la contraseña o correo correcto, en caso de error que envié un mensaje   de credenciales incorrectas
 >Debe poder loguearse a través de gmail.
 
-####Usuario 2
+###Usuario 2
 
 Karen Quezada es peruana y como nueva usuaria de RAM desea poder acceder a información de interés para ella, como compra venta de productos peruanos como golosinas o víveres. También considera que pueden informar a otros migrantes sobre su trabajo part time, donde no es requisito fundamental tener visa definitiva.
 
@@ -41,7 +41,7 @@ Karen Quezada es peruana y como nueva usuaria de RAM desea poder acceder a infor
 >El usuario debe poder hacer ingresar a " Busqueda " donde puede seleccionar sobre los ítems de interes mencionados en la definicion del producto.
 >El usuario debe poder hacer comentarios en post de interés, editarlos, borrarlos, dar me gusta y poder llevar   un conteo de estos
 
-####Usuario 3
+###Usuario 3
 Angel Talabera es venezolano y tuvo muchos inconvenientes para encontrar vivienda por lo que considera que RAM seria de mucha utilidad si puede ingresar y contactar a otros usuarios que den información de vivienda o trabajo. 
 
 
