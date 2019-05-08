@@ -33,7 +33,7 @@ Karina Rojas es colombiana y como nueva usuaria de RAM desea poder registrarse e
 >El usuario debería poder loguearse con la contraseña o correo correcto, en caso de error que envié un mensaje   de credenciales incorrectas
 >Debe poder loguearse a través de gmail.
 
-###3 Usuario 2
+#### Usuario 2
 
 Karen Quezada es peruana y como nueva usuaria de RAM desea poder acceder a información de interés para ella, como compra venta de productos peruanos como golosinas o víveres. También considera que pueden informar a otros migrantes sobre su trabajo part time, donde no es requisito fundamental tener visa definitiva.
 
