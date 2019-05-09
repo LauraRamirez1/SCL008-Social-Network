@@ -32,7 +32,6 @@ export const templateCreate = () => {
                 createAccount(email, password)
                     .then(() => {
                         alert('usuario creado  ' + email);
-                        //Continuo aqui******+
                     })
                     .catch(() => alert('error al registrar'));
             }

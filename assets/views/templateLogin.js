@@ -38,11 +38,11 @@ export const templateLogin = () => {
             document.getElementById('alert-Error').innerHTML = 'Ingrese sus datos de registro';
         } else {
             firebase.auth().signInWithEmailAndPassword(email, password)
-                .then(() => {
+                .then(function(result) {
                     alert('bienvenido ' + email);
 
                 })
-                .catch(e => {
+                .catch(function(error) {
                     alert('Usuario o contraseña incorrectos');
                     console.log('error al autenticar');
                 });
